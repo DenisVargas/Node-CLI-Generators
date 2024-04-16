@@ -9,8 +9,8 @@ También lo he utilizado para experimentar con el uso de `symlinks` (Enlaces Sim
 `package.json`
 ```json
 {
-	"name":¨needle-gen¨,
-	¨version¨:¨1.0.0¨,
+	"name":"needle-gen",
+	"version":"1.0.0",
 	"scripts": {
 		"start": "node ./src/needleIndexGen.js",
 		//...scripts...
@@ -42,13 +42,11 @@ Para verificar puedes chequear utilizando el comando:
 npm list -g
 ```
 ```md
-C:\Users\Denis\AppData\Roaming\npm
-├── @yao-pkg/pkg@5.11.5
+C:\Users\yourUser\AppData\Roaming\npm
 ├── canvas-sketch-cli@1.11.20
 ├── needle-gen@1.0.0 -> .\..\..\..\Desktop\Generators
 ├── npx@10.2.2
-├── typescript@4.8.2
-└── yo@4.3.1
+└── typescript@4.8.2
 ```
 - En este ejemplo puedes ver que el proyecto se añade como `needle-gen@1.0.0 -> .\..\..\..\Desktop\Generators`, como puedes ver se utilizan los campos `name` y `version`
 - Para ejecutarlo siempre utilizamos el nombre asignado en `bin`.
